@@ -1,0 +1,14 @@
+//java program
+//Celsius to Fahrenheit  
+import java.util.*;
+class Fahrenheit {
+    
+    public static void main (String args[]){
+        Scanner sc=new Scanner(System.in);
+        float F, C;
+        System.out.print("Enter Celsius: ");
+        C=sc.nextFloat();
+        F = (((C*9)/5)+32);
+        System.out.println("Temperature in celsius is: "+F);
+   }
+}
